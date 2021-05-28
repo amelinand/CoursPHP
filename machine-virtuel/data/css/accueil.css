@@ -1,0 +1,21 @@
+
+main {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(164, 221, 253);
+    color: cornsilk;
+    text-shadow: -1px 0 black, 0 1px black,
+      1px 0 black, 0 -1px black
+}
+
+h1 {
+    height: 40%;
+    background-image: url("../img/the-mandalorian.webp");
+    display: flex;
+    align-items: center;
+    width: 80%;
+    justify-content: center;
+
+}

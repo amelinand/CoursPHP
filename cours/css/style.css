@@ -1,0 +1,53 @@
+/************************** 
+*   Ceci est un commentaire 
+*
+*   tag {}
+*   .class {}
+*   #id {}
+*
+***************************/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+}
+
+header {
+    background-color: lightgrey;
+    height: 8%;
+    display: flex;
+}
+
+nav {
+    width: 100%;
+}
+
+nav > ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 4px 7px;
+    background-color: blanchedalmond;
+    border-radius: 4px;
+}
+
+nav a:hover {
+    color: black;
+    background-color: #eac48b;
+}
+
+nav li {
+    display: flex;
+    align-items: center;
+}
